@@ -1,17 +1,14 @@
 body {
   margin: 0;
+  background-image: url("mclaren.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .dramatic-header {
   height: 100vh;
   position: relative;
-}
-
-.dramatic-header img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  text-align: center;
 }
 
 .dramatic-header .text {
@@ -20,4 +17,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.menu {
+  float: left;
+  margin: 25px;
 }
