@@ -1,25 +1,26 @@
 body {
-  margin: 0;
-  background-image: url("/images/mclaren.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    margin: 0;
+    background-image: url("/images/mclaren-artura.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.dramatic-header {
-  height: 100vh;
-  position: relative;
+.home {
+    height: 100vh;
+    position: relative;
 }
 
-.dramatic-header .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.front-page-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
 }
 
 .menu {
-  float: left;
-  margin: 25px;
+    float: left;
+    margin: 25px;
 }
