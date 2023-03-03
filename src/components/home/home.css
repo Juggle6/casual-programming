@@ -16,3 +16,25 @@
     text-align: center;
 }
 
+.menu {
+    float: left;
+    margin: 25px;
+}
+
+.banana {
+    opacity: 0;
+    width: 100px;
+    transition: opacity 0.15s,
+    margin 0.15s;
+}
+
+.dropDownMenu {
+    opacity: 1;
+    float: left;
+    margin-top: 50px;
+    margin-left: -115px;
+}
+
+.dropDownMenu:hover .banana {
+    opacity: 1;
+}
