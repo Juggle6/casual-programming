@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 50" width="80" height="50">
+	<title>hamburger</title>
+	<defs>
+		<image  width="80" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAyAQMAAADx486/AAAAAXNSR0IB2cksfwAAAAZQTFRF////AAAAVcLTfgAAAAJ0Uk5T/wDltzBKAAAAFUlEQVR4nGNgoCv4Dwf0YI76jUoAAA/Yxzn+AUO5AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
