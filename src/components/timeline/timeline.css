@@ -1,0 +1,17 @@
+.timeline {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+.timeline h2 {
+    text-align: center;
+}
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: 25% 10% 25%;
+    align-items: center;
+    justify-items: center;
+}
