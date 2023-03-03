@@ -9,9 +9,39 @@
     text-align: center;
 }
 
-.timeline-grid {
-    display: grid;
-    grid-template-columns: 25% 10% 25%;
+.timeline-column {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.timeline-row {
+    display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.timeline-element {
+    width: 50%;
+    margin: 0 30px;
+}
+
+.timeline-circle {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.timeline-vertical-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    height: 250px;
+    width: 5px;
+    background-color: black;
 }
