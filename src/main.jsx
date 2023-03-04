@@ -1,27 +1,25 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import ContactsPage from './Pages/contactsPage';
-import AboutPage from './Pages/aboutPage';
+import contactsPage from './Pages/contactsPage';
+import aboutPage from './Pages/aboutPage';
+import ErrorPage from './Pages/notFound.jsx'
 
 import {
-    createBrowserRouter,
-    RouterProvider,
+  createBrowserRouter,
+  RouterProvider,
 } from "react-router-dom";
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <App />,
-    },
-    {
-        path: "/contacts",
-        element: <ContactsPage />,
-    },
-    {
-        path: "/about",
-        element: <AboutPage />
-    }
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "contacts",
+    element: <contactsPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
