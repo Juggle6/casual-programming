@@ -4,15 +4,39 @@ body {
 
 
 .creators {
-    display: flex;
-    justify-content: space-around;
+    align-items: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    text-align: center;
+    
 }
-.Mathias {
-
+.M {
+    display: inline-block;
 }
 
 .Onni {
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
 
+}
+
+.OnniImg {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.Hill-Billy {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.HillBillyImg {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
