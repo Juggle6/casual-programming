@@ -1,6 +1,4 @@
-import './home.css'
-
-export default function Home() {
+export default function HomeComponent() {
     return (
         <div className="home">
             <div className="front-page-center">

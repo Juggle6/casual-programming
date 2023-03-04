@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './timeline.css'
 
-export default function Timeline() {
+export default function TimelineComponent() {
     function GridRow({ title, description, weekNumber, onLeft, isLast }) {
         return (
             <div className="timeline-row" style={onLeft ? {flexDirection: 'row'} : {flexDirection: 'row-reverse'}}>
