@@ -1,0 +1,19 @@
+.navBar {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 8vh;
+}
+
+.navItems {
+    font-family: Arial;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 20px;
+}
+
+p {
+    color: #fff;
+}
