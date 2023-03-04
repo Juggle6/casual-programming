@@ -1,21 +1,27 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 import App from './App'
-import contactsPage from './Pages/contactsPage';
-import aboutPage from './Pages/aboutPage';
+import ContactsPage from './Pages/contactsPage';
+import AboutPage from './Pages/aboutPage';
+
+import {
+    createBrowserRouter,
+    RouterProvider,
+} from "react-router-dom";
+
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "contacts",
-    element: <contactsPage />,
-  },
+    {
+        path: "/",
+        element: <App />,
+    },
+    {
+        path: "/contacts",
+        element: <ContactsPage />,
+    },
+    {
+        path: "/about",
+        element: <AboutPage />
+    }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

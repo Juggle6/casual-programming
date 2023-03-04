@@ -1,7 +1,7 @@
 import React from 'react'
 import Menu from '../components/NavBar/menu'
 
-export default function aboutPage() {
+export default function AboutPage() {
     return (
         <div>
             <Menu />
