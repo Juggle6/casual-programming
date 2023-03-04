@@ -4,9 +4,9 @@ export default function Menu() {
     return (
     <div className="navBar">
         <div className="navItems">
-            <p>design</p>
-            <p>about</p>
-            <p>contacts</p>
+            <a href="/">Home</a>
+            <a href="/about">about</a>
+            <a href="/contacts">contacts</a>
         </div>
     </div>
 )}

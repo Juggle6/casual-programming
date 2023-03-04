@@ -1,6 +1,6 @@
 import './App.css'
 import Home from './components/home/home.jsx'
-import Menu from './components/menu/menu'
+import Menu from './components/NavBar/menu'
 import Timeline from './components/timeline/timeline.jsx'
 
 function App() {
