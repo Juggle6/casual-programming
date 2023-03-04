@@ -1,8 +1,10 @@
 .navBar {
+    display: flex;
     position: fixed;
     z-index: 100;
     width: 100vw;
-    height: 8vh;
+    height: 5vh;
+    align-items: center;
 }
 
 .navItems {
@@ -11,10 +13,13 @@
     display: flex;
     justify-content: space-between;
     width: 300px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 0px 20px;
 }
 
 a {
     color: #fff;
+}
+
+a:hover {
+    color: #a6c8ff;
 }
