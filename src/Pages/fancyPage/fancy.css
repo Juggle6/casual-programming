@@ -1,0 +1,33 @@
+.section {
+    height: 100vh;
+    position: relative;
+    font-family: 'Archivo', sans-serif;
+}
+
+.section.title {
+    background-color: orange;
+}
+
+.section.planning {
+    background-color: black;
+    color: white;
+}
+
+.section.contents {
+    position: absolute;
+    top: 40%;
+    margin-left: 5%;
+    height: fit-content;
+}
+
+.section.contents h1 {
+    font-size: 50pt;
+}
+
+.section.contents h2 {
+    font-size: 40pt;
+}
+
+.section.contents h3 {
+    font-size: 20pt;
+}
