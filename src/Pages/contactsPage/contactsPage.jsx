@@ -4,8 +4,10 @@ import { ContactUs } from '../../components/ContactComponent/ContactComponent';
 
 export default function ContactsPage() {
     return (
-        <div className="position">
-            <ContactUs />
+        <div className="background">
+            <div className="position">
+                <ContactUs />
+            </div>
         </div>
     )
 }

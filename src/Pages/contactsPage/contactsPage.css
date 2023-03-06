@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    
 }
 
 .position {
@@ -10,86 +10,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-@keyframes fallDown {
-    0% {
-        transform: scale(1.1, .9) translateY(-600px);
-    }
-    15% {
-        transform: scale(.9, 1.1) translateY(0);
-    }
-    36% {
-        transform: scale(1,1) translateY(0);
-    }
-    46% {
-        transform: scale(1.1, .9) translateY(0);
-    }
-    66% {
-        transform: scale(.9, 1.1) translateY(-100px);
-    }
-    86% {
-        transform: scale(1.05 .95) translateY(0);
-    }
-    93% {
-        transform: scale(1,1) translateY(-7px);
-    }
-    100% {
-        transform: scale(1,1) translateY(0);
-    }
-
-}
-
-.creators {
-    display: flex;
-    color: white;
-    animation: fallDown 1s linear;
-}
-.M {
-    text-align: center;
-}
-
-.Onni {
-    text-align: center;
-    transition: font-size 0.3s;
-}
-
-.Onni:hover .OnniImg{
-    width: 200px;
-    height: 200px;
-}
-
-.Onni:hover {
-    font-size: 50px;
-}
-
-.OnniImg {
-    transition: width 0.3s,
-    height 0.3s;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-.Hill-Billy {
-    margin-left: 200px;
-    margin-right: 200px;
-    white-space: nowrap;
-    text-align: center;
-    transition: font-size 0.3s;
-}
-
-.Hill-Billy:hover {
-    font-size: 50px;
-}
-
-.Hill-Billy:hover .HillBillyImg {
-    width: 200px;
-    height: 200px;
-}
-
-.HillBillyImg {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    transition: width 0.3s,
-    height 0.3s;
+.background {
+    background: url("/images/designbackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-color: grey;
+    background-blend-mode: multiply;
 }
