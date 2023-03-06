@@ -5,6 +5,7 @@ export default function Menu() {
     <div className="navBar">
         <div className="navItems">
             <a href="/">Home</a>
+            <a href="/Design">Design</a>
             <a href="/about">about</a>
             <a href="/contacts">contacts</a>
         </div>

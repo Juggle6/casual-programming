@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.UnderNavBar {
+    align-items: top;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-top: 50px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.GoldEmphasis {
+    color: #B28228;
+}

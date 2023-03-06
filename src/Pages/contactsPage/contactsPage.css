@@ -12,20 +12,30 @@ body {
 
 @keyframes fallDown {
     0% {
-        transform: translateY(-300px)
+        transform: scale(1.1, .9) translateY(-600px);
     }
-
-    33% {
-        transform: translateY(0px);
+    15% {
+        transform: scale(.9, 1.1) translateY(0);
     }
-
+    36% {
+        transform: scale(1,1) translateY(0);
+    }
+    46% {
+        transform: scale(1.1, .9) translateY(0);
+    }
     66% {
-        transform: translateY(-75px);
+        transform: scale(.9, 1.1) translateY(-100px);
+    }
+    86% {
+        transform: scale(1.05 .95) translateY(0);
+    }
+    93% {
+        transform: scale(1,1) translateY(-7px);
+    }
+    100% {
+        transform: scale(1,1) translateY(0);
     }
 
-    100% {
-        transform: translateY(0px);
-    }
 }
 
 .creators {

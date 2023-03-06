@@ -1,5 +1,6 @@
 import './App.css'
 import Home from './Pages/home/home.jsx'
+import DesignPage from './Pages/designPage/design'
 import Menu from './components/NavBar/menu'
 import Timeline from './components/timeline/timeline.jsx'
 import ContactsPage from './Pages/contactsPage/contactsPage.jsx';
@@ -15,17 +16,22 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    errorElement: <ErrorPage />
+    errorElement: <ErrorPage />,
   },
   {
     path: "/about",
     element: <AboutPage />,
-    errorElement: <ErrorPage />
+    errorElement: <ErrorPage />,
     },
   {
     path: "/contacts",
     element: <ContactsPage />,
-    errorElement: <ErrorPage />
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Design",
+    element: <DesignPage />,
+    errorElement: <errorPage />,
   },
 ]);
 
