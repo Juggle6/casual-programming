@@ -5,7 +5,7 @@ import TimelineComponent from '../../components/timeline/timeline.jsx'
 export default function HomePage() {
     return (
         <>
-            <HomeComponent />
+            <HomeComponent/>
             <TimelineComponent />
         </>
     )
