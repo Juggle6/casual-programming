@@ -16,10 +16,36 @@
     margin: 0px 20px;
 }
 
+.hamburgerMenu {
+    display: none;
+}
+
 a {
     color: #b8996b;
 }
 
 a:hover {
     color: #96713a;
+}
+
+@media (max-width: 600px) {
+    .navItems {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: block;
+        margin-top: 70px;
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
+
+    .navContainer:hover .navItems {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      margin-top: 250px;
+      margin-left: -125px;
+  }
+
 }
