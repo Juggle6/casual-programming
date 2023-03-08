@@ -4,7 +4,7 @@ import './design.css'
 export default function DesignPage() {
   return (
     <div className="BackgroundImage">
-      <div className="UnderNavBar">
+      <div className="UnderNavBar designPageContainer">
         <h1>
           These are our <span className="GoldEmphasis">TOP</span> tips for you to improve your design skills:
         </h1>

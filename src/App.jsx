@@ -5,6 +5,7 @@ import Menu from './components/NavBar/menu'
 import Timeline from './components/timeline/timeline.jsx'
 import ContactsPage from './Pages/contactsPage/contactsPage.jsx';
 import AboutPage from './Pages/aboutPage/aboutPage.jsx';
+import CreatorsPage from './Pages/CreatorsPage/CreatorsPage'
 import ErrorPage from './Pages/notFound/notFound.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -17,6 +18,7 @@ function App() {
             <Route path="/Design" element={<DesignPage />} />
             <Route path="/About" element={<AboutPage />} />
             <Route path="/Contacts" element={<ContactsPage />} />
+            <Route path="/Creators" element={<CreatorsPage />} />
           </Routes>
         </BrowserRouter>
     )

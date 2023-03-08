@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Oswald&display=swap');
 
 .Container {
-    margin-top: 50px;
     border-radius: 5px;
-}
-
-.ContactInfo {
-    padding-top: 10px;
 }
 
 #header {
@@ -74,4 +69,8 @@
 .Send:active {
     box-shadow: none;
     transform: translateY(5px);
+}
+
+#header {
+  text-align: center;
 }

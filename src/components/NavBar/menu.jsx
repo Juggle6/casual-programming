@@ -10,8 +10,9 @@ export default function Menu() {
               <div className="navItems">
                 <Link to="/">Home</Link>
                 <Link to="/Design">Design</Link>
-                <Link to="/about">about</Link>
-                <Link to="/contacts">contacts</Link>         
+                <Link to="/About">About</Link>
+                <Link to="/Contacts">Contacts</Link>
+                <Link to="/Creators">Creators</Link>         
               </div>
         </div>
     </div>

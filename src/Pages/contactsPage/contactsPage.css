@@ -1,14 +1,12 @@
-body {
-    
-}
-
 .position {
     align-items: top;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
 .background {
     background: url("/images/designbackground.png");
