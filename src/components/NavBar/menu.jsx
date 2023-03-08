@@ -1,5 +1,5 @@
 import './menu.css'
-
+import { Link } from 'react-router-dom';
 export default function Menu() {
     return (
     <div className="navContainer">
@@ -8,10 +8,10 @@ export default function Menu() {
             <img src="/images/hamburger.svg" alt="Burger" />
           </div>
               <div className="navItems">
-                <a href="/">Home</a>
-                <a href="/Design">Design</a>
-                <a href="/about">about</a>
-                <a href="/contacts">contacts</a>
+                <Link to="/">Home</Link>
+                <Link to="/Design">Design</Link>
+                <Link to="/about">about</Link>
+                <Link to="/contacts">contacts</Link>         
               </div>
         </div>
     </div>

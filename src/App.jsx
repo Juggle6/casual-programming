@@ -6,41 +6,19 @@ import Timeline from './components/timeline/timeline.jsx'
 import ContactsPage from './Pages/contactsPage/contactsPage.jsx';
 import AboutPage from './Pages/aboutPage/aboutPage.jsx';
 import ErrorPage from './Pages/notFound/notFound.jsx'
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/about",
-    element: <AboutPage />,
-    errorElement: <ErrorPage />,
-    },
-  {
-    path: "/contacts",
-    element: <ContactsPage />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/Design",
-    element: <DesignPage />,
-    errorElement: <errorPage />,
-  },
-]);
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
     return (
-        <>
-            <Menu />
-            <RouterProvider router={router} />
-        </>
+        <BrowserRouter>
+          <Menu />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Design" element={<DesignPage />} />
+            <Route path="/About" element={<AboutPage />} />
+            <Route path="/Contacts" element={<ContactsPage />} />
+          </Routes>
+        </BrowserRouter>
     )
 }
 
